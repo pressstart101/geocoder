@@ -1,6 +1,4 @@
 from flask import Flask, render_template, request, send_file
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.sql import func
 from werkzeug import secure_filename
 import pandas
 import os
